@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  min-height: 100vh;
+  text-align: center;
+  color: #ffffff;
+  background: url("background.jpg") center center / cover no-repeat fixed;
+  position: relative;
+}
+
+/* Overlay */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 0;
+}
+
+header, section, footer {
+  position: relative;
+  z-index: 1;
+}
+
+header {
+  padding: 90px 20px 40px;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+.sanskrit-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.6rem;
+  letter-spacing: 2px;
+}
+
+.and {
+  font-size: 1.4rem;
+  margin: 14px 0;
+  opacity: 0.85;
+}
+
+.date {
+  margin-top: 22px;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+}
+
+.blessing {
+  max-width: 720px;
+  margin: auto;
+  padding: 40px 20px;
+  font-size: 1rem;
+}
+
+.blessing p {
+  margin-bottom: 22px;
+}
+
+.sanskrit-quote {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  color: #f5e6c8;
+}
+
+footer {
+  padding: 40px 20px 90px;
+  font-size: 0.9rem;
+}
+
+footer .gift {
+  margin-top: 10px;
+  font-style: italic;
+}
+
